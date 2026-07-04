@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Krishna Yadav | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <h2 class="logo">Dev Krishna</h2>
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- HOME -->
+
+<section id="home" class="hero">
+
+    <div class="hero-text">
+
+        <h1>Hello, I'm <span>Dev Krishna Yadav</span></h1>
+
+        <h3>B.Tech CSE (AI & ML) Student</h3>
+
+        <p>
+            Passionate about Web Development, Artificial Intelligence,
+            Machine Learning and Data Science.
+        </p>
+
+        <a href="#contact" class="btn">Contact Me</a>
+
+    </div>
+
+    <div class="hero-image">
+        <img src="images/profile.jpg" alt="Profile Picture">
+    </div>
+
+</section>
+
+<!-- ABOUT -->
+
+<section id="about">
+
+    <h2>About Me</h2>
+
+    <p>
+        I am currently pursuing B.Tech in Computer Science Engineering
+        with specialization in Artificial Intelligence & Machine Learning.
+
+        I enjoy building responsive websites and continuously learning
+        new technologies including Python, Java, HTML, CSS and SQL.
+    </p>
+
+</section>
+
+<!-- SKILLS -->
+
+<section id="skills">
+
+    <h2>Skills</h2>
+
+    <div class="cards">
+
+        <div class="card">HTML</div>
+
+        <div class="card">CSS</div>
+
+        <div class="card">Java</div>
+
+        <div class="card">Python</div>
+
+        <div class="card">C</div>
+
+        <div class="card">SQL</div>
+
+    </div>
+
+</section>
+
+<div class="project">
+    <h3>Personal Portfolio Website</h3>
+    <p>
+        Designed and developed a responsive portfolio website using HTML
+        and CSS to showcase my skills and projects.
+    </p>
+</div>
+
+<div class="project">
+    <h3>Crop Yield Prediction</h3>
+    <p>
+        A Python-based machine learning project that predicts crop yield
+        using weather and agricultural data.
+    </p>
+</div>
+
+<div class="project">
+    <h3>Food Delivery Website</h3>
+    <p>
+        A simple front-end website for online food ordering with a clean
+        and responsive user interface.
+    </p>
+</div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact">
+
+    <h2>Contact</h2>
+
+    <p>Email : a2023cseaiml9120@imsec.ac.in</p>
+
+    <p>Phone : +91 8178226544</p>
+
+</section>
+
+<footer>
+
+    <p>© 2026 Dev Krishna Yadav | All Rights Reserved</p>
+
+</footer>
+
+</body>
+</html>

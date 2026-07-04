@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-color:#d9e8f5;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.container{
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.todo-box{
+    width:500px;
+    background-color:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+.todo-box h1{
+    text-align:center;
+    margin-bottom:20px;
+    color:#1b3a57;
+}
+.input-box{
+    display:flex;
+    gap:10px;
+    margin-bottom:20px;
+}
+.input-box input{
+    flex:1;
+    padding:10px;
+    font-size:16px;
+    border:1px solid #999;
+    border-radius:5px;
+    outline:none;
+}
+#taskDate{
+    padding:10px;
+    font-size:16px;
+    border:1px solid #999;
+    border-radius:5px;
+    outline:none;
+}
+.input-box input:focus{
+    border:1px solid #1b3a57;
+}
+.input-box button{
+    background-color:#1b3a57;
+    color:white;
+    border:none;
+    padding:10px 15px;
+    border-radius:5px;
+    cursor:pointer;
+}
+.input-box button:hover{
+    background-color:#284d74;
+}
+#taskList{
+    list-style:none;
+}
+.task{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#f4f4f4;
+    margin-bottom:10px;
+    padding:10px;
+    border-radius:5px;
+}
+.left{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    flex:1;
+}
+.left span{
+    word-break:break-word;
+}
+.completed{
+    text-decoration:line-through;
+    color:gray;
+}
+.right{
+    display:flex;
+    gap:5px;
+}
+.editBtn{
+    background:#f0ad4e;
+    color:white;
+    border:none;
+    padding:6px 10px;
+    border-radius:4px;
+    cursor:pointer;
+}
+.editBtn:hover{
+    background:#d89227;
+}
+.deleteBtn{
+    background:#d9534f;
+    color:white;
+    border:none;
+    padding:6px 10px;
+    border-radius:4px;
+    cursor:pointer;
+}
+.deleteBtn:hover{
+    background:#b52b27;
+}
+@media(max-width:500px){
+
+    .todo-box{
+        width:95%;
+    }
+    .input-box{
+        flex-direction:column;
+    }
+    .input-box button{
+        width:100%;
+    }
+    .task{
+        flex-direction:column;
+        align-items:flex-start;
+        gap:10px;
+    }
+    .right{
+        width:100%;
+        justify-content:flex-end;
+    }
+
+}
